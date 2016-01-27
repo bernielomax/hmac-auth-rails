@@ -1,0 +1,15 @@
+<div ng-controller="DemoController">
+
+  <h1>Auth Tokens</h1>
+  <table>
+    <tr>
+      <th>Email</th>
+      <th>Auth Token</th>
+    </tr>
+    <tr ng-repeat="u in users">
+      <td>{{ u.email }}</td>
+      <td>{{ u.auth_token }}</td>
+    </tr>
+  </table>
+
+</div>

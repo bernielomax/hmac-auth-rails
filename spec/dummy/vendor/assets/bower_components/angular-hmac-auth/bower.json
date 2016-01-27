@@ -1,0 +1,29 @@
+{
+  "name": "angular-hmac-auth",
+  "description": "Angular HMAC Authentication HTTP Interceptor",
+  "author": "Andres Pache <apache90@gmail.com>",
+  "version": "0.0.2",
+  "main": "./dist//hmacAuthInterceptor.js",
+  "keywords":[
+    "angular",
+    "hmac",
+    "auth",
+    "interceptor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andres99x/angular-hmac-auth.git"
+  },
+  "dependencies": {
+    "angular": "^1.2",
+    "cryptojslib": "~3.1.2"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test"
+  ]
+}

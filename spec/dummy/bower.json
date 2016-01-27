@@ -1,0 +1,24 @@
+{
+  "name": "dummy",
+  "authors": [
+    "Bernie Lomax"
+  ],
+  "description": "Bower init for rspec dummy",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-hmac-auth": "~0.0.3",
+    "angular": "~1.4.9"
+  }
+}
